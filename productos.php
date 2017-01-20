@@ -25,8 +25,8 @@ if (!$resultado = mysqli_query($link, $sql)) {
         ?>
         <br>
         <hr><br><br>
-        <a href="download.php?file=pago.pdf"> Forma de pago </a><br><br>
-        <a href="download.php?file=envio.pdf"> Forma de envio </a>
+        <a href="download.php?type=1"> Forma de pago </a><br><br>
+        <a href="download.php?type=2"> Forma de envio </a>
     </center>	
 
 </body>
